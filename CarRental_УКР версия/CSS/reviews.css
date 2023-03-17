@@ -1,0 +1,104 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+  width: 980px;
+}
+.reviews_container {
+  height: 200px;
+  width: 980px;
+}
+.reviews_slide {
+  display: none;
+}
+.reviews_slide.slide_visible {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.reviews_dots {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+.dot {
+  background-color: #aaa;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 7x;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.dot.dot_pressed {
+  background-color: #555;
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+  margin-left: 5x;
+  margin-right: 5px;
+}
+.review__text {
+  font-size: 20px;
+}
+.review__title{
+  color: #c13;
+  margin: auto;
+}
+/*стили звездочек*/
+/*
+.stars__container {
+  margin: auto;
+  position: relative;
+  height: 52px;
+  font-size: 50px;
+  color: #777;
+}
+.rating__stripe {
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  border: 1px black solid;
+}
+.rating__stripe::before {
+  content: "★★★★★";
+  height: 100%;
+  width: 100%;
+  background-color: #ffd300;
+  position: absolute;
+  
+}
+.stars__container::before {
+  content: "★★★★★";
+  display: block;
+  color: #777;
+  border: 1px black solid;
+}
+
+.stars {
+  margin: auto;
+  height: 52px;
+  font-size: 50px;
+  color: #777;
+}
+<div class="stars__container">
+        <div class="rating__stripe"></div>
+        <div class="stars"></div> 
+    </div>
+*/
+.stars__container {
+  margin: auto;
+  height: 52px;
+  font-size: 50px;
+  color: #777;
+}
+.crimson-star {
+  color: #c13;
+}

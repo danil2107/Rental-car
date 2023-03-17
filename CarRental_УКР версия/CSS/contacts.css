@@ -1,0 +1,131 @@
+/*Контакты*/
+.contacts__wrapper {
+    width: 1140px;
+    margin: auto;
+  }
+  .contacts__wrapper>h2{
+    text-align: left;
+    font-size: 30px;
+    color: #777;
+  }
+  .contact__us__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+  }
+  .contacts__container {
+    width: 360px;
+    height: 485px;
+    margin-left: 30px;
+  }
+  .contacts__section {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .contacts__card {
+    width: 100%;
+    height: 120px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .card__info__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 20px;
+  }
+  .manager__avatar {
+    margin: auto 0 auto 20px;
+    border: 1px #c13 solid;
+  }
+  .manager__name {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .contacts__card__info {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 0px;
+  }
+  .info__value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #c13;
+  }
+  .contacts__card__stripe {
+    width: 100%;
+    height: 8px;
+    background-color: #c13;
+    margin-top: 2px;
+  }
+  /*Стилизация формы отправки сообщения*/
+  .form__container {
+    width: 750px;
+    height: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .form__container>h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #777;
+    margin-top: 0px;
+  }
+  .form__container>h3>span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #c13;
+  }
+  form {
+    width: 100%;
+  }
+  .form__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  #firstName, #lastName, #telephone, #email, #message {
+    background-color: #eee;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+  }
+  #firstName, #lastName, #telephone, #email {
+    height: 44px;
+  }
+  #firstName, #lastName {
+    width: 366px;
+  }
+  #lastName {
+    margin: auto;
+    margin-left: 18px;
+  }
+  #telephone, #email, #message {
+    width: 99.5%;
+    margin-top: 18px;
+  }
+  .button__block>input {
+    background-color: #c13;
+    margin-top: 10px;
+    height: 46px;
+    width: 236px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.4);
+  }
+  #firstName:focus, #lastName:focus, #telephone:focus, #email:focus, #message:focus {
+    font-size: 18px;
+    font-weight: 600;
+    color: #777;
+    border: none;
+    cursor: pointer;
+  }

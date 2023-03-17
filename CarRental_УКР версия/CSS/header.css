@@ -1,0 +1,103 @@
+/*header и анимация сокрытия*/
+header {
+  height: 40px;
+  width: 1366px;
+  background-color: #fff;
+  z-index: 3;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: transform 0.1s linear;
+  display: flex;
+}
+.header-container {
+  width: 1366px;
+  display: flex;
+  justify-content:flex-end;
+}
+.header.hide {
+  transform: translateY(-50px);
+}
+.phone {
+  font-size: 16px;
+  font-weight: 700;
+  color: #777;
+  margin-left: 600px;
+}
+
+
+/*селект языка*/
+.language__select{
+  background-color: #c13;
+  width: 190;
+  height: 38;
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+.select_lng_body {
+ display: none;
+}
+.is-active-lng {
+  display: block;
+  border: 1px solid #cccccc;
+  margin-top: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  display: none;
+}
+.select_lng_header {
+  cursor: pointer;
+  display: flex;
+}
+.select__your__language {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px;
+  color: #fff;
+  margin: auto;
+}
+/*.select__icon {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  height: 38px;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.select__item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+  background-color: #fff;
+}
+.language__icon {
+  width: 24px;
+  height: 18px;
+  padding-right: 10px;
+}
+.select__item:hover {
+  background-color: #f2f2f2ff;
+}*/
+.select__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14px;
+  width: 14px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: 4px;
+  border: #fff 1px solid;
+}
+#selectIcon {
+  width: 10px;
+  height: 10px;
+  padding: auto;
+}

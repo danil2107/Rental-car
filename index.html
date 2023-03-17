@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/customer.css">
+    <link rel="stylesheet" href="CSS/social.css">
+    <link rel="stylesheet" href="CSS/vehiclemodel.css">
+    <link rel="stylesheet" href="CSS/reviews.css">
+    <!--стили для карты сюда добавить-->
+    <link rel="stylesheet" href="CSS/contacts.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Исчезающий хэдер -->
+    <header class="header">
+        <div class="header-container">
+            <p class="phone">Контакт: +380934066491</p>
+            <div class="language__select">
+                <div class="select_lng_header">
+                    <span class="select__your__language">Обрати мову</span>
+                    <div class="select__icon"><img src="img/icons/tab_down.svg" alt="down" id="selectIcon"></div>
+                </div>
+                <div class="select_lng_body">
+                    <div class="select_lng_item">
+                        <img class="language__icon" src="img/icons/us.svg" alt="EN">
+                        <span>English</span>
+                    </div>
+                    <div class="select_lng_item">
+                        <img class="language__icon" src="img/icons/ru.svg" alt="RU">
+                        <span>Русский</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Навбар с меню -->
+    <nav class="navbar">
+        <div class="container">
+        <div class="logo">
+            <img class="navbar-logo" src="img/logo-red.gif" alt="logo">
+        </div>
+                    <div class="navbar-wrap">
+                        <ul class="navbar-menu">
+                             <li><a class="active" href="#Home">Головна</a></li>
+                             <li><a href="#Services">Послуги</a></li>
+                             <li><a href="#Models">Моделі авто</a></li>
+                             <li><a href="#Location">Місцезнаходження</a></li>
+                             <li><a href="#Contacts">Контакти</a></li>
+                        </ul>
+                        <a class="blog-select" href="#">Блог</a>
+                    </div>    
+                </div>       
+    </nav>
+    <main>
+
+<section class="section__navigation" id="Home">
+<h2>Головна</h2>
+<div class="reservation__container">
+<div class="reservation__peeker__container">
+    <!--Селект модели-->
+    <div class="order__car__container">
+     <form action="" class="order__car">
+         <!--селект-->
+        <div class="select__model">
+             <div class="select__model__header">
+                 <span class="select__model__current">Виберіть модель автомобіля</span>
+                 <div class="select__model__icon"><img src="img/icons/model_dropdown.svg" alt=""></div>
+             </div>
+             <div class="select__model__body">
+                 <div class="select__model__item">VW Golf II 2019</div>
+                 <div class="select__model__item">Audi A1 S-Line 2019</div>
+                 <div class="select__model__item">Toyota Camry 13</div>
+                 <div class="select__model__item">BMW 320 ModernLine</div>
+                 <div class="select__model__item">Mervedes-Benz GLK 320</div>
+                 <div class="select__model__item">VW Passat CC 2020</div>
+                 <div class="select__model__item">Audi A1 S-Line 2021</div>
+                 <div class="select__model__item">Toyota Camry 14</div>
+                 <div class="select__model__item">BMW 350 ModernLine</div>
+                 <div class="select__model__item">Mervedes-Benz GLK 380</div>
+                 <div class="select__model__item">VW Passat CC 2021</div>
+                 <div class="select__model__item">Toyota Camry 15</div>
+                 <div class="select__model__item">VW Golf II 2021</div>
+                 <div class="select__model__item">BMW 380 ModernLine</div>
+             </div>
+         </div>
+         <div class="adress-container">
+             <div class="adress_point">
+                 <img src="img/icons/mapsmark.svg" alt="mapsmark">
+                 <span class="adress__place">Підібрати авто</span>
+            </div>
+             <input type="text" name="pick-up" id="pick-up__input">
+        </div>
+        <div class="drop-off__switcher"><span>Потрібне інше місце висадки?</span></div>
+        <div class="adress-container drop-off_visible drop-off_hide">
+            <div class="adress_point">
+                <img src="img/icons/mapsmark.svg" alt="mapsmark">
+                <span class="adress__place">Drop-off</span>
+            </div>
+            <input type="text" name="drop-off" id="drop-off__input">
+       </div>
+         <!--кнопка отправки заказа-->
+         <div class="continue__button"><input type="submit" value="ПРОДОВЖЕННЯ БРОНЮВАННЯ АВТО"></div>
+     </form>
+    </div>
+ <!--Первый слайдер с преимуществами-->
+ <div class="advantages-container">
+    <div class="car__advantages__choice">
+        <div class="car_sliderline">
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+                
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+               
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+                
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+               
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+                
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+                
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">АВТО ЛЮКС ВІД 28 $ ДЕНЬ</span>
+                
+            <img src="img/cars/car2.png" class="advantage_image" alt="BMW">
+            </div>
+            <div class="car__advantage__container">
+                <span class="slide__title">ОТРИМАЙТЕ ЗНИЖКУ 15%</span>
+                
+                <img src="img/cars/car1.png" class="advantage_image" alt="Mercedes">
+            </div>
+        </div>   
+    </div>
+    <div class="slider_navigation">
+            <img src="img/icons/left-arrow.svg" class="left_arrow" alt="Left">
+            <img src="img/icons/left-arrow.svg" class="right_arrow" alt="Left">
+    </div>
+ </div>
+</div>
+</div>
+<div class="home-triangle"></div>
+</section>
+
+
+<!--Customer Services-->
+<section class="section__navigation" id="Services">
+<h2>Послуги</h2>
+<!--Преимущества-->
+<div class="advantages__container">
+    <article class="advantage">
+        <img src="img/icons/plus.jpg" alt="Plus" class="advantage__logo">
+        <h1 class="advantage__heading">Спеціальні тарифи на бронювання авто</h1>
+        <p class="advantage__text"></p>
+    </article>
+    <article class="advantage">
+        <img src="img/icons/plus.jpg" alt="Plus" class="advantage__logo">
+        <h1 class="advantage__heading">Бронювання по мобільному телефону</h1>
+        <p class="advantage__text"></p>
+    </article>
+    <article class="advantage">
+        <img src="img/icons/plus.jpg" alt="Plus" class="advantage__logo">
+        <h1 class="advantage__heading">Оренда автомобіля з необмеженою кількістю миль</h1>
+        <p class="advantage__text"></p>
+    </article>
+    <article class="advantage">
+        <img src="img/icons/plus.jpg" alt="Plus" class="advantage__logo">
+        <h1 class="advantage__heading">Оренда автомобіля в одну сторону</h1>
+        <p class="advantage__text"></p>
+    </article>
+</div>
+
+<!--Соцсети&подписка-->
+<div class="social">
+    <div class="social__container">
+        <div class="social__text__container">
+            <span id="social_1">ЗАРЕЄСТРУЙТЕСЯ, ЩО ОТРИМАЄТЕ ДИВОВИЖНІ ПРОПОЗИЦІЇ</span>
+            <span id="social_2">ЕКСКЛЮЗИВНИЙ ДОСТУП ДЛЯ ПРОПОЗИЦІЙ ТА АКЦІЙ</span>
+        </div>
+        <div class="input__wrapper">
+            <input type="email" class="email__enter" placeholder="Введіть адресу вашої електронної пошти">
+            <input type="submit" class="email__send" value="Отправить">
+        </div>
+        <div class="social__icons">
+            <img src="img/icons/twitter.svg" alt="Twitter" class="social__icon">
+            <img src="img/icons/instagram.svg" alt="Instagram" class="social__icon">
+            <img src="img/icons/facebook.svg" alt="Facebook" class="social__icon">
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="section__navigation" id="Models">
+    <div class="container">
+      <h2>Моделі транспортних засобів – Короткий огляд нашого автопарку, який можна орендувати</h2>
+      <!--выбор модели на 6ти табах-->
+      <div class="models__container">
+        <div class="models__tabs">
+          <div class="models__tab"><p class="model__name">1</p></div>
+          <div class="models__tab"><p class="model__name">2</p></div>
+          <div class="models__tab"><p class="model__name">3</p></div>
+          <div class="models__tab"><p class="model__name">4</p></div>
+          <div class="models__tab"><p class="model__name">5</p></div>
+          <div class="models__tab"><p class="model__name">6</p></div>
+          <div class="buttons__container">
+            <div class="tab__btn" id="upButton">
+                <img src="img/icons/tab_up.svg" alt="UP">
+            </div>
+            <div class="tab__btn" id="downButton">
+                <img src="img/icons/tab_down.svg" alt="DOWN">
+            </div>
+        </div>
+        </div>
+        <!--треугольники справа от табов-->
+    <div class="triangles_wrapper">
+        <div class="tab_triangle"></div>
+        <div class="tab_triangle"></div>
+        <div class="tab_triangle"></div>
+        <div class="tab_triangle"></div>
+        <div class="tab_triangle"></div>
+        <div class="tab_triangle"></div>
+    </div>
+    <div class="models__image">
+        <img src="img/cars__tabs/vehicle1.jpg" id="carImg" alt="car">
+    </div>
+    <!--блок характеристик выбранной модели-->
+    <div class="models__specifications">
+        <div class="models_specification_price">
+            <span  class="price_value">$ 100.40</span>
+            <span class="price_per_day"> орендна плата за добу</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_model">Модель</span>
+            <span class="tab_model_value">Supra</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_doors">Дверей</span>
+            <span class="tab_doors_value">4</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_seats">Сидіння</span>
+            <span class="tab_seats_value">5</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_luggage">Багаж</span>
+            <span class="tab_luggage_value">2</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_Transmission">КПП</span>
+            <span class="tab_Transmission_value">Механіка</span>
+        </div>
+        <div class="models_specification_tab">
+            <span class="tab_AirCondition">Кондиціонер</span>
+            <span class="tab_AirCondition_value">Так</span>
+        </div>
+        <div class="models_specification_tab nonborder" >
+            <span class="tab_MinAge">Мінімальний вік</span>
+            <span class="tab_MinAge_value">18</span>
+        </div>
+        <div class="reserve_btn"><input type="submit" value="Бронювати зараз"></div>
+    </div>
+</div>
+</div>
+
+<!--Отзывы-->
+<div class="reviews">
+    <div class="stars__container">
+        <span class="star crimson-star">★</span>
+        <span class="star crimson-star">★</span>
+        <span class="star crimson-star">★</span>
+        <span class="star crimson-star">★</span>
+        <span class="star crimson-star">★</span> 
+    </div>
+    <div class="reviews_container">
+       <div class="reviews_slide slide_visible">
+           <p class="review__text">Оренда на 5-й вулиці – це завжди позитивний досвід. Персонал дуже професійний, ефективний і завжди усміхнений. І я завжди відчуваю, що мене вітають і цінують. Керівництво завжди готове вирішити будь-яке питання в будь-який момент. Їх оперативність і професіоналізм роблять це моїм вибором номер один.</p>
+           <span class="review__title">– Michael Smith, Santa Barbara CA</span>
+       </div>
+       <div class="reviews_slide">
+           <p class="review__text">Цей прокат був найкращим досвідом прокату! Після того, як я сам визначив усі деталі в режимі онлайн, підбір був надзвичайно ефективним, надзвичайно доброзичливим і не потребував звичайних 5–10 хвилин дуже неприємних роздумів про те, чому хтось не підписується на всі варіанти (страхування тощо). Мені передали ключі та роздруківку широкого реєстру, яка вимагала...</p>
+           <span class="review__title">– Jon Doe, Las Vegas NV</span>
+       </div>
+       <div class="reviews_slide">
+           <p class="review__text">Це був мій перший раз, коли я брав автомобіль напрокат. І, зрештою, це був чудовий досвід, я не маю жодних претензій. Представник служби підтримки допоможе мені знайти найкращий варіант оренди відповідно до моїх потреб. Мені також подобається той факт, що ви, хлопці, надаєте розкішну оренду за чудову ціну. Обов'язково буду орендувати в цій компанії знову.</p>
+           <span class="review__title">– Eugine Whalles, Santa Barbara CA</span>
+       </div>
+    </div>
+    <div class="reviews_dots">
+      <div class="dot dot_pressed"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+</div>
+</section>
+
+
+
+<section class="section__navigation" id="Location">
+<h2>Місцезнаходження</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24849.148153259863!2d-119.73163908011668!3d34.43071129694532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e914c76f2d83d5%3A0xc8d13a64d7ba7648!2z0KHQsNC90YLQsC3QkdCw0YDQsdCw0YDQsCwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sru!4v1628528878353!5m2!1sru!2sru" width="1680" height="540" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<!--Contact us-->
+<section class="section__navigation" id="Contacts">
+    <div class="contacts__wrapper">
+<h2>Контакти</h2>
+<div class="contact__us__container">
+<!--Форма для сообщения-->   
+    <div class="form__container">
+         <span>Маєте запитання чи потрібна додаткова інформація?</span>
+         <h3><span>Адресса: </span>Car|Rental / 3861 Sepulveda Blvd. / Culver City, CA 90230</h3>
+         <form action="#" method="post" class="123">
+             <div class="form__wrapper"><input type="text" placeholder="Ім'я:" name="FirstName" id="firstName"><input type="text" placeholder="Призвіще:" name="LastName" id="lastName"></div>
+             <input type="tel" placeholder="Телефон:" name="telephone" id="telephone">
+             <input type="email" placeholder="Пошта:" name="email" id="email">
+             <textarea name="message" id="message" placeholder="Повідомлення:"cols="30" rows="10"></textarea>
+             <div class="button__block"><input type="submit" value="НАДІСЛАТИ"></div>
+         </form>
+    </div>
+<!--Карточки менеджеров-->
+    <div class="contacts__container">
+        <span class="contacts__section">    Центр обслуговування клієнтів</span>
+        <div class="contacts__card">
+            <img src="img/icons/avatar1.jpg" class="manager__avatar" alt="Avatar">
+            <div class="card__info__container">
+                <span class="manager__name">Sarah Connor</span>
+                <div class="info__container__inner"></div>
+                <h3 class="contacts__card__info"><span class="info__value">Телефон: </span>666-999-888</h3>
+                <h3 class="contacts__card__info"><span class="info__value">Пошта: </span>connor@example.com</h3>
+            </div>
+        </div>
+        <div class="contacts__card__stripe"></div>
+        <span class="contacts__section">Змінити або скасувати бронювання</span>
+        <div class="contacts__card">
+            <img src="img/icons/avatar2.jpg" class="manager__avatar" alt="Avatar">
+            <div class="card__info__container">
+                <span class="manager__name">Mike Smith</span>
+                <div class="info__container__inner"></div>
+                <h3 class="contacts__card__info"><span class="info__value">Телефон: </span>666-999-889</h3>
+                <h3 class="contacts__card__info"><span class="info__value">Пошта: </span>m.smith@example.com</h3>
+            </div>
+        </div>
+        <div class="contacts__card__stripe"></div>
+        <div class="contacts__card">
+            <img src="img/icons/avatar3.jpg" class="manager__avatar" alt="Avatar">
+            <div class="card__info__container">
+                <span class="manager__name">Jane Doe</span>
+                <div class="info__container__inner"></div>
+                <h3 class="contacts__card__info"><span class="info__value">Телефон: </span>666-999-887</h3>
+                <h3 class="contacts__card__info"><span class="info__value">Пошта: </span>j.a.doe@example.com</h3>
+            </div>
+        </div>
+        <div class="contacts__card__stripe"></div>
+    </div>
+</div>
+</div>
+</section>      
+
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-wrap">
+        <ul class="footer-menu">
+            <li><a href="#Home">Головна</a></li>
+            <li><a href="#Services">Послуги</a></li>
+            <li><a href="#Models">Моделі авто</a></li>
+            <li><a href="#Location">Місцезнаходження</a></li>
+            <li><a href="#Contacts">Контакти</a></li>
+        </ul>
+</footer>    
+</main>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>

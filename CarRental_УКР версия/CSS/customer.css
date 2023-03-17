@@ -1,0 +1,43 @@
+/*Customer Services*/
+.advantage {
+    background-color: #eee;
+    width: 550px;
+    height: 260px;
+    margin: 0px 0px 30px 0px;
+    position: relative;
+  }
+  .advantages__container {
+    display: flex;
+    width: 1140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .advantages__container > .advantage:first-child {
+    margin-right: 30px;
+  }
+  .advantages__container > .advantage:last-child {
+    margin-left: 30px;
+  }
+  .advantage img {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .advantage__text {
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 30px;
+    font-weight: 500;
+  }
+  .advantage__heading {
+    all: initial;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #545454;
+    font-size: 32px;
+    font-weight: 700;
+    position: absolute;
+    top: 35px;
+    left: 95px;
+  }

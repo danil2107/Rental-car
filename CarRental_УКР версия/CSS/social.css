@@ -1,0 +1,68 @@
+/*соцсети*/
+.social{
+    width: 100%;
+    background-color: #c13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social__container {
+    width: 1140px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+  }
+  .social__text__container {
+    display: flex;
+    flex-direction:column;
+    width: 450px;
+    color: #fff;
+  }
+  .social__icons {
+    margin-left: 32px;
+  }
+  .social__icon {
+    width: 56px;
+    height: 56px;
+  }
+  .social {
+    height: 240px;
+  }
+  #social_1 {
+   font-size: 28px;
+   font-weight: 700;
+  }
+  #social_2 {
+   font-size: 14px;
+  }
+  .input__wrapper {
+    position: relative;
+  }
+  .email__enter {
+    height: 52px;
+    width: 400px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #dbdbdb;
+  }
+  .email__send {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 38px;
+    width: 70px;
+    background-color: #fff;
+    border: 2px solid #777;
+    font-weight: 800;
+    font-size: 16px;
+    color: #777;
+  }
+  .email__send:hover {
+    border: 2px solid #777;
+    background-color: #777;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    transition-delay: 150ms;
+  }
+  
